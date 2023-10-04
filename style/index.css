@@ -1,8 +1,12 @@
 * {
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+  background-color: #f8f0e5;
 }
 
 header {
@@ -18,7 +22,12 @@ header {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 20%;
+  height: 50px;
+  font-family: "Merienda";
+}
+.websiteName p {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .info {
@@ -26,8 +35,9 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  width: 80%;
-  height: 70%;
+  width: 100%;
+  height: 250px;
+  background-color: #6b7685;
 }
 
 .name {
@@ -58,7 +68,6 @@ li a {
 .content {
   display: flex;
   flex-direction: column;
-
   min-height: 1200px;
   width: 100vw;
 }
@@ -67,6 +76,7 @@ li a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
+  gap: 50px;
   min-height: 500px;
   width: 100%;
 }
@@ -84,8 +94,18 @@ li a {
   height: 400px;
 }
 .containerType2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   width: 350px;
   height: 300px;
+}
+.box {
+  object-fit: fill;
+  height: 250px;
+  width: 100%;
 }
 
 footer {
@@ -94,7 +114,7 @@ footer {
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 300px;
+  height: 250px;
   width: 100vw;
 }
 .footerContainer {
