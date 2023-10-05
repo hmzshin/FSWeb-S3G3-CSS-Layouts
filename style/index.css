@@ -8,6 +8,8 @@ body {
   font-family: "Roboto";
   background-color: #f8f0e5;
 }
+img {
+}
 
 header {
   display: flex;
@@ -80,6 +82,7 @@ li a {
   gap: 50px;
   min-height: 500px;
   width: 100%;
+  margin-top: 50px;
 }
 .contentContainer2 {
   display: flex;
@@ -90,6 +93,7 @@ li a {
   min-height: 700px;
   width: 100%;
 }
+
 .containerType1 {
   width: 600px;
   height: 400px;
@@ -102,11 +106,20 @@ li a {
   gap: 20px;
   width: 350px;
   height: 300px;
+  transition: scale 0.1s ease-in-out;
+  -webkit-transition: scale 0.1s ease-in-out;
+  -moz-transition: scale 0.1s ease-in-out;
+  -ms-transition: scale 0.1s ease-in-out;
+  -o-transition: scale 0.1s ease-in-out;
 }
-.box {
-  object-fit: fill;
+.containerType2:hover {
+  scale: 1.1;
+}
+.containerType2 img {
+  border-radius: 10px;
   height: 250px;
   width: 100%;
+  object-fit: cover;
 }
 
 footer {
