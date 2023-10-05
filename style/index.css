@@ -94,18 +94,31 @@ li a {
   gap: 50px;
   min-height: 700px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .containerType1 {
-  object-fit: cover;
-  border-radius: 10px;
+  background-color: red;
   width: 600px;
   height: 400px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
+.containerType1 img {
+  object-fit: cover;
+  object-position: top left;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 .containerType2 {
   display: flex;
   flex-wrap: wrap;
